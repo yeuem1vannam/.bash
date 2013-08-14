@@ -15,6 +15,7 @@ alias gpsy='git push yeuem1vannam'
 alias glo='git log --oneline -20 --color=auto'
 alias ls='ls -F'
 alias v='vim'
+alias "db:recreate"="db:recreate --trace"
 
 
 # For WonderWall project
