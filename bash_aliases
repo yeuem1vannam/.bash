@@ -1,3 +1,16 @@
+# Personal config commands
+# Color scheme for grep and ls
+export CLICOLOR=1
+# export LSCOLORS=GxFxCxDxBxegedabagaced
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;35;40'
+
+
+# Startup commands
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+memcached -d
+
+
 # Common command
 alias rm='rm -i'
 alias cs='cd;ls'
